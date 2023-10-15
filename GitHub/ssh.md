@@ -5,31 +5,34 @@ eval "$(ssh-agent -s)"
 cat jorge.pub
 ssh-keygen -t ed25519 -C "joralquisi@hotmail.com"
 ssh -V -->
-
-
 # Cómo Generar y Agregar una Clave SSH a GitHub
+
+## Requisitos Previos
+- Asegúrate de tener SSH instalado en tu sistema.
 
 A continuación, se describen los pasos para generar una nueva clave SSH y agregarla a tu cuenta de GitHub en la página web:
 
 1. **Generar una nueva clave SSH**:
-   ```bash
-   ssh-keygen -t ed25519 -C "tu-correo-electronico@gmail.com"
-   ```
-   Sustituye "tu-correo-electronico@gmail.com" con tu dirección de correo electrónico. Esto generará una nueva clave SSH.
+
+    Sustituye "tu-correo-electronico@gmail.com" con tu dirección de correo electrónico. Esto generará una nueva clave SSH.
+    ```bash
+    ssh-keygen -t ed25519 -C "tu-correo-electronico@gmail.com"
+    ```
+   
 
 2. **Iniciar el agente SSH:**
-    Para que el agente SSH maneje tus claves, ejecuta el siguiente comando:
 
+    Para que el agente SSH maneje tus claves, ejecuta el siguiente comando:
     ```bash
     eval "$(ssh-agent -s)"
     ```
 
 3. **Copiar la clave SSH al portapapeles:**
-    pbcopy < ~/.ssh/id_ed25519.pub
+
+    La clave pública que hayas generado es id_ed25519.pub.
     ```bash
     pbcopy < ~/.ssh/id_ed25519.pub
     ```
-    La clave pub que allas generado id_ed25519
 
 4. **Agregar la clave SSH a tu cuenta de GitHub:**
     - Abre GitHub en tu navegador web.
