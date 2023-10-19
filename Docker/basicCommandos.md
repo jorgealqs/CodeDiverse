@@ -18,7 +18,9 @@ docker images
 - `docker run`: Para ejecutar un contenedor a partir de una imagen, por ejemplo:
 
 ```shell
-docker run -it ubuntu
+docker run ubuntu
+
+docker run -d -p 8081:80 --name otro-contenedor-nginx -v /ruta/del propyecto:/usr/share/nginx/html nginx
 ```
 
 ## Listar contenedores en ejecución:

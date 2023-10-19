@@ -34,7 +34,13 @@ A continuación, se describen los pasos para generar una nueva clave SSH y agreg
     pbcopy < ~/.ssh/id_ed25519.pub
     ```
 
-4. **Agregar la clave SSH a tu cuenta de GitHub:**
+4. **Agrega tu clave SSH actual a SSH-Agent :**
+
+```bash
+ssh-add ~/.ssh/id_ed25519.pub
+```
+
+5. **Agregar la clave SSH a tu cuenta de GitHub:**
     - Abre GitHub en tu navegador web.
     - Inicia sesión en tu cuenta de GitHub si aún no lo has hecho.
     - En la esquina superior derecha, haz clic en tu avatar de perfil y selecciona "Settings".
