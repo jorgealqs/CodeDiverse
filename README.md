@@ -13,6 +13,8 @@
 ### Django
 - Descubre proyectos web desarrollados con el poderoso marco de trabajo Django, ideal para aplicaciones robustas y escalables.
 
+[Instalación de Django](Django/Install.md)
+
 ### Python
 - Explora el universo Python, desde aplicaciones web hasta scripts útiles, y descubre su versatilidad.
 
