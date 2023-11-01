@@ -20,14 +20,13 @@
 
 ### Modelos
 
-- [Generación de modelos](Django/models-dot.md){:target="_blank"}
+- <a href="/Django/models-dot.md" target="_blank">Instrucciones de instalación</a>
 
 ### Tareas Programadas (CRON)
 
-- [Cómo hacer un CRON en Django](Django/cron.md){:target="_blank"}
+- <a href="/Django/cron.md" target="_blank">Instrucciones de instalación</a>
 
-
-### Python
+## Python
 - Explora el universo Python, desde aplicaciones web hasta scripts útiles, y descubre su versatilidad.
 
 ### OceanDigital
