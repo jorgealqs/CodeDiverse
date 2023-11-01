@@ -10,10 +10,22 @@
 ### PHP
 - Sumérgete en el mundo de las aplicaciones web con código PHP para crear sitios dinámicos y funcionales.
 
-### Django
-- Descubre proyectos web desarrollados con el poderoso marco de trabajo Django, ideal para aplicaciones robustas y escalables.
+## Django
 
-[Instalación de Django](Django/Install.md)
+- En esta sección, encontrarás información relacionada con el marco de trabajo Django, ideal para aplicaciones robustas y escalables.
+
+### Instalación
+
+- [Instrucciones de instalación](Django/install.md){:target="_blank"}
+
+### Modelos
+
+- [Generación de modelos](Django/models-dot.md){:target="_blank"}
+
+### Tareas Programadas (CRON)
+
+- [Cómo hacer un CRON en Django](Django/cron.md){:target="_blank"}
+
 
 ### Python
 - Explora el universo Python, desde aplicaciones web hasta scripts útiles, y descubre su versatilidad.
