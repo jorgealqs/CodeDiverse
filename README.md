@@ -16,7 +16,7 @@
 
 ### Instalación
 
-- [Instrucciones de instalación](Django/install.md){:target="_blank"}
+- <a href="Django/install.md" target="_blank">Instrucciones de instalación</a>
 
 ### Modelos
 
